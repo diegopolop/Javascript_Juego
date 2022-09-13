@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 8</title>
+
+    <!-- CSS only boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- estilo propio -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+
+
+
+</head>
+<body>
+
+    <h1>Evaluación Unidad VIII</h1>
+
+    
+    <div class="container">
+
+
+        <div class="row">
+            <!-- contenedor de informacion -->
+            <div class="col-md-6 well"> 
+               <div class="card" style="width: 20rem;">
+                <img src="img/reglas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text"> Vamos a jugar a "Piedra, papel o tijeras". En este caso jugaremos contra la máquina y trataremos de ganarle eligiendo un opción y esperando que la maquina haya elegido la perdedora. Vamos a jugar pero previamente debes completar el formulario y ser mayor de 12 años. A jugar !!!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- contenedor de formulario -->
+
+
+        <div class="col-md-6 well" id="formulario">
+            <form method="get" id="informacion" name="informacion" action="Integrador_DiegoPolop.html">
+                <label>Nombre :</label>
+                <input type="text" name="nombre" id="nombre"
+                placeholder="Indique su Nombre" minlength="2"
+                maxlength="50" pattern="[A-Za-z]+" autocomplete="off"><br><br>
+                <label>Apellido:</label>
+                <input type="text" name="apellido" id="apellido"
+                placeholder="Indique su Apellido" minlength="2"
+                maxlength="50" pattern="[A-Za-z]+" autocomplete="off"><br><br>
+                <label>Em@il :</label>
+                <input type="email" name="mail" id="mail" placeholder="M@il"
+                maxlength="100" required autocomplete="off"><br><br>
+                <label>Sexo</label><br>
+                Hombre<input type="radio" name="sexo">
+                Mujer<input type="radio" name="sexo">
+                Otro<input type="radio" name="sexo"><br><br>
+                <label>Edad:
+                    <input type="text"  name="cumple" id="cumple"
+                    placeholder="Indique tu edad" pattern="[0-9]+" required autocomplete="off"></label><br><br>
+                    <input type="checkbox" name="acepta" id="acepta" required> <a id="link" target="_blank" href="https://redrebibir.files.wordpress.com/2020/07/reglamento-de-participacic3b3n-en-el-foro-rebibir-t-1-1.pdf"</a>Acepto las Condiciones del foro <br><br>
+                        <input type="submit" value="Enviar" id="enviar"name="enviar">
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Boostrap JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <!-- validacion para nombre con javascript -->
+        <script type="text/javascript" src="js/validacion_formulario.js"></script>
+        <!-- Implementacion jquery -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <!-- validacion para edad con jquery -->
+        <script type="text/javascript" src="js/conjquery.js"></script>
+
+
+    </body>
+    </html>

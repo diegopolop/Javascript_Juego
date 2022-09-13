@@ -1,0 +1,67 @@
+body {
+    font-family: Calibri;
+    padding: 10px 20px;
+    background-color: lightcyan;
+}
+h1 {
+    color: #FFFFFF;
+    background-color: #ffbd33;
+    padding: 10px;
+    border-radius: 0 20px;
+}
+#caja1 {
+    background-color: greenyellow;
+    border-radius: 0 20px;
+    height: 500px;
+    text-align: center;
+    
+    
+}
+
+
+#formulario {
+    background-color: #E6E6FA;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    
+    
+}
+
+
+#nombre {
+    margin-top: 20px;
+}
+#nombre, #apellido, #mail, #cumple {
+    background-color: #DBDF99;
+    border-radius: 5px;
+}
+
+span::after {
+  padding-left: 5px;
+}
+
+input:invalid + span::after {
+  content: "✖";
+  
+}
+
+input:valid + span::after {
+  content: "✓";
+}
+
+#enviar {
+    border-color: black;
+    transition: background-color .15s;
+}
+
+
+#enviar:hover {
+    border-color: red;
+    margin-left: 2px;
+    margin-top: 4px;
+}

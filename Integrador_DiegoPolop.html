@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piedra Pepel o Tijera by Diego Polop</title>
+    
+    <link rel="stylesheet" href="css/estilo_juego.css">
+</head>
+<body>
+	
+    <h1>Trabajo Integrador</h1>
+
+  <div class="container">
+    <img src="img/titulo.png" id="titulo">
+
+    <div id="resultado">
+
+        <img id="imagen_maquina" src="img/rock.svg">
+
+        <div id="texto_inicio">
+            Elige una opción
+        </div>
+
+        <img id="imagen_usuario" src="img/rock.svg">
+
+    </div>
+
+    <div id="botones">
+        <button id="piedra" type="button" >
+            <img src="img/rock.svg"/>
+        </button>
+        <button id="papel" type="button" >
+            <img src="img/paper.svg"/>
+        </button>
+        <button id="tijera" type="button" >
+            <img src="img/scissors.svg"/>
+        </button>
+
+
+    </div>
+
+    <button type="button" class="btn btn-light" onclick="history.go(-1);"> Salir </button>
+
+    <footer id="footer"> Piedra Papel o Tijera by Diego Polop</footer>
+
+</div>
+<script type="text/javascript" src="js/jueguitoppt.js"></script>
+
+</body>
+</html>
